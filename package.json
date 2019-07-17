@@ -33,7 +33,7 @@
     "homepage": "https://github.com/pastorsj/node-fred#readme",
     "dependencies": {
         "axios": "^0.18.0",
-        "@babel/runtime": "^7.3.4"
+        "@babel/runtime": "^7.5.5"
     },
     "devDependencies": {
         "@babel/core": "^7.5.5",
