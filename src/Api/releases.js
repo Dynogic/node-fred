@@ -32,7 +32,7 @@ class Releases {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -65,7 +65,7 @@ class Releases {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -95,7 +95,7 @@ class Releases {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -129,7 +129,7 @@ class Releases {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -167,7 +167,7 @@ class Releases {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -197,7 +197,7 @@ class Releases {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -234,7 +234,7 @@ class Releases {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -274,7 +274,7 @@ class Releases {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -306,7 +306,7 @@ class Releases {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);

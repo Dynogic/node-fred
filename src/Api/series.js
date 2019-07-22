@@ -30,7 +30,7 @@ class Series {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -60,7 +60,7 @@ class Series {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -101,7 +101,7 @@ class Series {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -131,7 +131,7 @@ class Series {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -170,7 +170,7 @@ class Series {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -208,7 +208,7 @@ class Series {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -247,7 +247,7 @@ class Series {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -279,7 +279,7 @@ class Series {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -311,7 +311,7 @@ class Series {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -346,7 +346,7 @@ class Series {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);

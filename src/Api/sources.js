@@ -32,7 +32,7 @@ class Sources {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -62,7 +62,7 @@ class Sources {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
@@ -96,7 +96,7 @@ class Sources {
                         resolve(res.data);
                     })
                     .catch((err) => {
-                        reject(err.response.data);
+                        reject(err);
                     });
             } catch (e) {
                 reject(e);
