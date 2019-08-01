@@ -1,12 +1,12 @@
 {
     "name": "@jaketb/node-fred",
-    "version": "2.1.5",
+    "version": "2.1.6",
     "description": "Another nodejs wrapper for the st louis fed",
-    "main": "lib/index.js",
+    "main": "src/index.js",
     "types": "index.d.ts",
     "scripts": {
         "build": "webpack --optimize-minimize --mode production",
-        "build-babel": "babel src --out-dir lib --source-maps",
+        "build-babel": "babel src --out-dir build --source-maps && cp README.md index.d.ts build/ && node scripts/release.js",
         "parcel": "parcel src/index.js",
         "parcel-build": "parcel build -d lib/ src/index.js",
         "dev": "webpack --progress --colors --watch --mode production",
